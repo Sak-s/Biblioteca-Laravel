@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .container-alerta{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    transition: .5s;
+    opacity: 0;
+    pointer-events: none
+    ;
+    
+    
+    }
+    .container-alerta .alerta-body{
+    width: 30%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(59, 2, 92);
+    border: solid 0.312vw #a36ff7;
+    border-radius: 1vw;
+    
+    }
+    .alerta-body .part-main-info{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+    }
+    .part-main-info .icono{
+    width: 30%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
+    .part-main-info .mete-info{
+    width: 65%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    
+    }
+    .mete-info .text-info{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3vw;
+    color: white;
+    
+    }
+    .mete-info .put-id{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    }
+    .alerta-body .part-put-buttons{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    }
+    .part-put-buttons .botoncitos{
+    width: 25%;
+    height: 80%;
+    display: flex;
+    text-align: center;
+    font-size: 1.2vw;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+    cursor: pointer;
+    
+    }
+    .noSee{
+        opacity: 1;
+        pointer-events:auto;
+    }
+    #input-id{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6vw;
+    text-align: center;
+    border: none;
+    background-color: rgb(59, 2, 92);
+    color: white;
+    }
